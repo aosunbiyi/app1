@@ -1,0 +1,39 @@
+<?php
+namespace App\Model\Entity;
+
+use Cake\ORM\Entity;
+
+/**
+ * Template Entity
+ *
+ * @property int $id
+ * @property string $alias
+ * @property string $template_code
+ * @property string $template_title
+ * @property string $template_body
+ * @property string $default_template_body
+ * @property \Cake\I18n\FrozenTime $created
+ * @property \Cake\I18n\FrozenTime $modified
+ */
+class Template extends Entity
+{
+
+    /**
+     * Fields that can be mass assigned using newEntity() or patchEntity().
+     *
+     * Note that when '*' is set to true, this allows all unspecified fields to
+     * be mass assigned. For security purposes, it is advised to set '*' to false
+     * (or remove it), and explicitly make individual fields accessible as needed.
+     *
+     * @var array
+     */
+    protected $_accessible = [
+        'alias' => true,
+        'template_code' => true,
+        'template_title' => true,
+        'template_body' => true,
+        'default_template_body' => true,
+        'created' => true,
+        'modified' => true
+    ];
+}
