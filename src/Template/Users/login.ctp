@@ -2,7 +2,7 @@
 
 <?php	
    $string = Cake\Utility\Security::hash('string', 'sha1', true);
-   print $string;
+
 ?>
 
 <input type="hidden" name="_csrfToken" value="<?= $string ?>" />
