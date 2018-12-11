@@ -104,7 +104,7 @@
                                                                     <i class="m-nav__link-icon flaticon-info"></i>
                                                                     <span class="m-nav__link-text">
                                                                         FAQ
-                                                                    </span>
+                                                                     </span>
                                                                 </a>
                                                             </li>
                                                             <li class="m-nav__item">

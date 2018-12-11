@@ -2,6 +2,7 @@
 
 
 <?php
+
 /**
  * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
@@ -72,96 +73,7 @@ $cakeDescription = 'Hotel Manager';
                                             <?php echo $this->Html->image('../assets/demo/demo2/media/img/logo/logo.png', ['fullBase' => true]); ?>
 										</a>
 									</div>
-									<div class="m-stack__item m-stack__item--middle m-brand__tools">
-										<div class="m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-left m-dropdown--align-push" m-dropdown-toggle="click" aria-expanded="true">
-											<a href="#" class="dropdown-toggle m-dropdown__toggle btn btn-outline-metal m-btn  m-btn--icon m-btn--pill">
-												<span>
-													Dashboard
-												</span>
-											</a>
-											<div class="m-dropdown__wrapper">
-												<span class="m-dropdown__arrow m-dropdown__arrow--left m-dropdown__arrow--adjust"></span>
-												<div class="m-dropdown__inner">
-													<div class="m-dropdown__body">
-														<div class="m-dropdown__content">
-															<ul class="m-nav">
-																<li class="m-nav__section m-nav__section--first m--hide">
-																	<span class="m-nav__section-text">
-																		Quick Menu
-																	</span>
-																</li>
-																<li class="m-nav__item">
-																	<a href="" class="m-nav__link">
-																		<i class="m-nav__link-icon flaticon-share"></i>
-																		<span class="m-nav__link-text">
-																			Human Resources
-																		</span>
-																	</a>
-																</li>
-																<li class="m-nav__item">
-																	<a href="" class="m-nav__link">
-																		<i class="m-nav__link-icon flaticon-chat-1"></i>
-																		<span class="m-nav__link-text">
-																			Customer Relationship
-																		</span>
-																	</a>
-																</li>
-																<li class="m-nav__item">
-																	<a href="" class="m-nav__link">
-																		<i class="m-nav__link-icon flaticon-info"></i>
-																		<span class="m-nav__link-text">
-																			Order Processing
-																		</span>
-																	</a>
-																</li>
-																<li class="m-nav__item">
-																	<a href="" class="m-nav__link">
-																		<i class="m-nav__link-icon flaticon-lifebuoy"></i>
-																		<span class="m-nav__link-text">
-																			Accounting
-																		</span>
-																	</a>
-																</li>
-																<li class="m-nav__separator m-nav__separator--fit"></li>
-																<li class="m-nav__item">
-																	<a href="" class="m-nav__link">
-																		<i class="m-nav__link-icon flaticon-chat-1"></i>
-																		<span class="m-nav__link-text">
-																			Customer Relationship
-																		</span>
-																	</a>
-																</li>
-																<li class="m-nav__item">
-																	<a href="" class="m-nav__link">
-																		<i class="m-nav__link-icon flaticon-info"></i>
-																		<span class="m-nav__link-text">
-																			Order Processing
-																		</span>
-																	</a>
-																</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- BEGIN: Responsive Aside Left Menu Toggler -->
-										<a href="javascript:;" id="m_aside_left_offcanvas_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-tablet-and-mobile-inline-block">
-											<span></span>
-										</a>
-										<!-- END -->
-						<!-- begin::Responsive Header Menu Toggler-->
-										<a id="m_aside_header_menu_mobile_toggle" href="javascript:;" class="m-brand__icon m-brand__toggler m--visible-tablet-and-mobile-inline-block">
-											<span></span>
-										</a>
-										<!-- end::Responsive Header Menu Toggler-->
-			<!-- begin::Topbar Toggler-->
-										<a id="m_aside_header_topbar_mobile_toggle" href="javascript:;" class="m-brand__icon m--visible-tablet-and-mobile-inline-block">
-											<i class="flaticon-more"></i>
-										</a>
-										<!--end::Topbar Toggler-->
-									</div>
-								</div>
+								
 							</div>
 							<!-- end::Brand -->		
 			
@@ -269,6 +181,41 @@ $cakeDescription = 'Hotel Manager';
 																		</span>
 																	</a>
 																</li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/DiscountPlans" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Discount Plans
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/payment-methods" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Payment Methods
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/transportations" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Transportations
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/transportation-types" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Transportation Types
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/TransportaionStatitions" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Transportaion Statitions
+																		</span>
+																	</a>
+                                                                </li>
 																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
 																	<a  href="/Seasons" class="m-menu__link ">
 																		<span class="m-menu__link-text">
@@ -495,265 +442,6 @@ $cakeDescription = 'Hotel Manager';
 										</li>
 
 								
-										<li class="m-menu__item  m-menu__item--submenu"  m-menu-submenu-toggle="click" m-menu-link-redirect="1" aria-haspopup="true">
-											<a  href="javascript:;" class="m-menu__link m-menu__toggle">
-												<span class="m-menu__item-here"></span>
-												<span class="m-menu__link-text">
-                                                Reports
-												</span>
-												<i class="m-menu__hor-arrow la la-angle-down"></i>
-												<i class="m-menu__ver-arrow la la-angle-right"></i>
-											</a>
-											<div class="m-menu__submenu  m-menu__submenu--fixed-xl m-menu__submenu--center" >
-												<span class="m-menu__arrow m-menu__arrow--adjust"></span>
-												<div class="m-menu__subnav">
-													<ul class="m-menu__content">
-														<li class="m-menu__item">
-															<h3 class="m-menu__heading m-menu__toggle">
-																<span class="m-menu__link-text">
-																	Finance Reports
-																</span>
-																<i class="m-menu__ver-arrow la la-angle-right"></i>
-															</h3>
-															<ul class="m-menu__inner">
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-icon flaticon-map"></i>
-																		<span class="m-menu__link-text">
-																			Annual Reports
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-icon flaticon-user"></i>
-																		<span class="m-menu__link-text">
-																			HR Reports
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-icon flaticon-clipboard"></i>
-																		<span class="m-menu__link-text">
-																			IPO Reports
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-icon flaticon-graphic-1"></i>
-																		<span class="m-menu__link-text">
-																			Finance Margins
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-icon flaticon-graphic-2"></i>
-																		<span class="m-menu__link-text">
-																			Revenue Reports
-																		</span>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="m-menu__item">
-															<h3 class="m-menu__heading m-menu__toggle">
-																<span class="m-menu__link-text">
-																	Project Reports
-																</span>
-																<i class="m-menu__ver-arrow la la-angle-right"></i>
-															</h3>
-															<ul class="m-menu__inner">
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--line">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Coca Cola CRM
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--line">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Delta Airlines Booking Site
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--line">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Malibu Accounting
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--line">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Vineseed Website Rewamp
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--line">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Zircon Mobile App
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--line">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Mercury CMS
-																		</span>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="m-menu__item">
-															<h3 class="m-menu__heading m-menu__toggle">
-																<span class="m-menu__link-text">
-																	HR Reports
-																</span>
-																<i class="m-menu__ver-arrow la la-angle-right"></i>
-															</h3>
-															<ul class="m-menu__inner">
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--dot">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Staff Directory
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--dot">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Client Directory
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--dot">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Salary Reports
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--dot">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Staff Payslips
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--dot">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Corporate Expenses
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<i class="m-menu__link-bullet m-menu__link-bullet--dot">
-																			<span></span>
-																		</i>
-																		<span class="m-menu__link-text">
-																			Project Expenses
-																		</span>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="m-menu__item">
-															<h3 class="m-menu__heading m-menu__toggle">
-																<span class="m-menu__link-text">
-																	Reporting Apps
-																</span>
-																<i class="m-menu__ver-arrow la la-angle-right"></i>
-															</h3>
-															<ul class="m-menu__inner">
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<span class="m-menu__link-text">
-																			Report Adjusments
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<span class="m-menu__link-text">
-																			Sources & Mediums
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<span class="m-menu__link-text">
-																			Reporting Settings
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<span class="m-menu__link-text">
-																			Conversions
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<span class="m-menu__link-text">
-																			Report Flows
-																		</span>
-																	</a>
-																</li>
-																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-																	<a  href="inner.html" class="m-menu__link ">
-																		<span class="m-menu__link-text">
-																			Audit & Logs
-																		</span>
-																	</a>
-																</li>
-															</ul>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
 									
 									</ul>
 								</div>
@@ -819,13 +507,15 @@ $cakeDescription = 'Hotel Manager';
 								</h4>
 								<i class="m-menu__section-icon flaticon-more-v3"></i>
 							</li>
+
+							<!--- Property Setup Menu  -->
 							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"  m-menu-submenu-toggle="hover">
 								<a  href="javascript:;" class="m-menu__link m-menu__toggle">
 									<i class="m-menu__link-bullet m-menu__link-bullet--dot">
 										<span></span>
 									</i>
 									<span class="m-menu__link-text">
-                                    Property Setup
+                                    Property Setup 
 									</span>
 									<i class="m-menu__ver-arrow la la-angle-right"></i>
 								</a>
@@ -835,7 +525,7 @@ $cakeDescription = 'Hotel Manager';
 										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true" >
 											<span class="m-menu__link">
 												<span class="m-menu__link-text">
-                                                Property Setup
+                                                Property Setup 
 												</span>
 											</span>
 										</li>
@@ -919,6 +609,57 @@ $cakeDescription = 'Hotel Manager';
 												</span>
 											</a>
                                         </li>
+
+												<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/DiscountPlans" class="m-menu__link ">
+																	<i class="m-menu__link-bullet m-menu__link-bullet--dot">
+													<span></span>
+												</i>
+																		<span class="m-menu__link-text">
+																		Discount Plans
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/payment-methods" class="m-menu__link ">
+																	<i class="m-menu__link-bullet m-menu__link-bullet--dot">
+													<span></span>
+												</i>
+																		<span class="m-menu__link-text">
+																		Payment Methods
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/transportations" class="m-menu__link ">
+																	<i class="m-menu__link-bullet m-menu__link-bullet--dot">
+													<span></span>
+												</i>
+																		<span class="m-menu__link-text">
+																		Transportations
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/transportation-types" class="m-menu__link ">
+																	<i class="m-menu__link-bullet m-menu__link-bullet--dot">
+													<span></span>
+												</i>
+																		<span class="m-menu__link-text">
+																		Transportation Types
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/TransportaionStatitions" class="m-menu__link ">
+																	<i class="m-menu__link-bullet m-menu__link-bullet--dot">
+													<span></span>
+												</i>
+																		<span class="m-menu__link-text">
+																		Transportaion Statitions
+																		</span>
+																	</a>
+                                                                </li>
                                         <li class="m-menu__item " aria-haspopup="true"  m-menu-link-redirect="1">
 											<a  href="/Seasons" class="m-menu__link ">
 												<i class="m-menu__link-bullet m-menu__link-bullet--dot">
@@ -976,6 +717,8 @@ $cakeDescription = 'Hotel Manager';
 									</ul>
 								</div>
 							</li>
+
+								<!--- 	Main Configuration  -->
 					
 							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"  m-menu-submenu-toggle="hover" m-menu-link-redirect="1">
 								<a  href="javascript:;" class="m-menu__link m-menu__toggle">
@@ -1096,7 +839,7 @@ $cakeDescription = 'Hotel Manager';
 								</div>
                             </li>
                        
-                 
+                 	<!--- 	Advance Settings  -->
                             
 
                             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"  m-menu-submenu-toggle="hover" m-menu-link-redirect="1">
@@ -1153,6 +896,74 @@ $cakeDescription = 'Hotel Manager';
 											</a>
 										</li>
 									
+                                     
+                                     
+                               
+                                      
+									</ul>
+								</div>
+							</li>
+
+                    <!--- 	Laundry Settings  -->
+
+
+							    <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"  m-menu-submenu-toggle="hover" m-menu-link-redirect="1">
+								<a  href="javascript:;" class="m-menu__link m-menu__toggle">
+									<i class="m-menu__link-bullet m-menu__link-bullet--dot">
+										<span></span>
+									</i>
+									<span class="m-menu__link-text">
+										Laundry  Settings
+									</span>
+									<i class="m-menu__ver-arrow la la-angle-right"></i>
+								</a>
+								<div class="m-menu__submenu ">
+									<span class="m-menu__arrow"></span>
+									<ul class="m-menu__subnav">
+									
+									
+										<li class="m-menu__item " aria-haspopup="true"  m-menu-link-redirect="1">
+											<a  href="/LaundryServices" class="m-menu__link ">
+												<span class="m-menu__link-text">
+													Laundry Services
+												</span>
+											</a>
+                                        </li>
+                                     
+                                   
+                                        <li class="m-menu__item " aria-haspopup="true"  m-menu-link-redirect="1">
+											<a  href="/LaundryHotelServices" class="m-menu__link ">
+												<span class="m-menu__link-text">
+												Laundry Hotel Service
+												</span>
+											</a>
+                                        </li>
+
+										    <li class="m-menu__item " aria-haspopup="true"  m-menu-link-redirect="1">
+											<a  href="/LaundryItemCategories" class="m-menu__link ">
+												<span class="m-menu__link-text">
+												Laundry Item Category
+												</span>
+											</a>
+                                        </li>
+
+											    <li class="m-menu__item " aria-haspopup="true"  m-menu-link-redirect="1">
+											<a  href="/LaundryItems" class="m-menu__link ">
+												<span class="m-menu__link-text">
+												Laundry Item 
+												</span>
+											</a>
+                                        </li>
+								
+
+										    <li class="m-menu__item " aria-haspopup="true"  m-menu-link-redirect="1">
+											<a  href="/LaundryPackagingTypes" class="m-menu__link ">
+												<span class="m-menu__link-text">
+												Laundry Packaging Type
+												</span>
+											</a>
+                                        </li>
+								
                                      
                                      
                                

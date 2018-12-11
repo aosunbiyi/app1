@@ -188,7 +188,7 @@ echo $this->Form->control('file',['type'=>'file','class'=>'form-control m-input 
                                     </div>
                                     <?= $this->Form->end() ?>
 
-                                         <img src="<?= h('/files/amenities/' .$amenity->amenity_logo) ?>" > 
+                                         <img src="<?= h('/files/' .$amenity->amenity_logo) ?>" > 
 
 						
 								<!--end::Form-->

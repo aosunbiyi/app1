@@ -436,6 +436,41 @@ $cakeDescription = 'Hotel Manager';
 																		</span>
 																	</a>
                                                                 </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/DiscountPlans" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Discount Plans
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/payment-methods" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Payment Methods
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/transportations" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Transportations
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/transportation-types" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Transportation Types
+																		</span>
+																	</a>
+                                                                </li>
+																<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
+																	<a  href="/TransportaionStatitions" class="m-menu__link ">
+																		<span class="m-menu__link-text">
+																		Transportaion Statitions
+																		</span>
+																	</a>
+                                                                </li>
                                                                 <li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
 																	<a  href="/week-days" class="m-menu__link ">
 																		<span class="m-menu__link-text">

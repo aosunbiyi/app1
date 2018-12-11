@@ -56,7 +56,7 @@ class AmenitiesController extends AppController
             $file = $this->request->data['file'];
             $file['name'] =  time() . '-' . str_replace(' ', '_', $file['name']); // timestamp files to prevent clobber
            
-            if (move_uploaded_file($file['tmp_name'], WWW_ROOT . 'files/amenities/  ' . $file['name'])) {
+            if (move_uploaded_file($file['tmp_name'], WWW_ROOT . 'files/' . $file['name'])) {
                 $this->request->data['amenity_logo'] = $file['name'];
                 $amenity = $this->Amenities->patchEntity($amenity, $this->request->getData());
                 
@@ -98,7 +98,7 @@ class AmenitiesController extends AppController
             $file = $this->request->data['file'];
             $file['name'] =  time() . '-' . str_replace(' ', '_', $file['name']); // timestamp files to prevent clobber
            
-            if (move_uploaded_file($file['tmp_name'], WWW_ROOT . 'files/amenities/' . $file['name'])) {
+            if (move_uploaded_file($file['tmp_name'], WWW_ROOT . 'files/' . $file['name'])) {
                 $this->request->data['amenity_logo'] = $file['name'];
                 $amenity = $this->Amenities->patchEntity($amenity, $this->request->getData());
                 

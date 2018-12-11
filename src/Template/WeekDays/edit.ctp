@@ -138,7 +138,7 @@
 
 
 echo $this->Form->control('day_name',['class'=>'form-control m-input m-input--square']);
-echo $this->Form->label('isweekday','Is Weekend?');
+echo $this->Form->label('isweekday','Is Week Day?');
 echo $this->Form->control('isweekday',['type'=>'checkbox', 'label'=>false]);
 
 

@@ -168,7 +168,7 @@
 echo $this->Form->control('rate_type_id',['class'=>'form-control m-input m-input--square'], ['options' => $rateTypes]);
 echo $this->Form->control('rate_name',['class'=>'form-control m-input m-input--square']);
 echo $this->Form->control('amount',['class'=>'form-control m-input m-input--square']);
-echo $this->Form->label('isweekday','Weekend Rate?');
+echo $this->Form->label('isweekday','Week Day Rate?');
 echo $this->Form->control('isweekday',['type'=>'checkbox','label'=>false]);
 echo $this->Form->label('isspecial','Speacial Rate?');
 echo $this->Form->control('isspecial',['type'=>'checkbox','label'=>false]);

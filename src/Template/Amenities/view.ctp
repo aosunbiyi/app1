@@ -189,7 +189,7 @@
         <tr>
             <th scope="row"><?= __('Amenity Logo') ?></th>
             <td>
-            <img src="<?= h('/files/amenities/' .$amenity->amenity_logo) ?>" > 
+            <img src="<?= h('/files/' .$amenity->amenity_logo) ?>" > 
         
         </td>
         </tr>

@@ -147,34 +147,31 @@ class UsersController extends AppController
                 
         $this->set(compact('res'));
                 $this->set('_serialize', ['res']);
-            }
-}
-
-
-
-    public function token()
-    {
-        $user = $this->Auth->identify();
-        if (!$user) {
-          
-            throw new UnauthorizedException('Invalid username or password');
-        }
-       else{
-        $this->set([
-            'success' => true,
-            'data' => [
-                'token' =>  JWT::encode([
-                    'sub' => $user['id'],
-                    'exp' =>  time() + 604800
-                ],
-                Security::salt())
-            ],
-            '_serialize' => ['success', 'data']
-        ]);
-       }
-
-    
     }
 
+
+            public function token()
+            {
+                $user = $this->Auth->identify();
+                if (!$user) {
+                  
+                    throw new UnauthorizedException('Invalid username or password');
+                }
+               else{
+                $this->set([
+                    'success' => true,
+                    'data' => [
+                        'token' =>  JWT::encode([
+                            'sub' => $user['id'],
+                            'exp' =>  time() + 604800
+                        ],
+                        Security::salt())
+                    ],
+                    '_serialize' => ['success', 'data']
+                ]);
+               }
+        
+            
+            }
 
 }

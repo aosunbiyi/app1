@@ -170,7 +170,7 @@
                 <td><?= $amenity->has('amenity_type') ? $this->Html->link($amenity->amenity_type->amenity_type_name, ['controller' => 'AmenityTypes', 'action' => 'view', $amenity->amenity_type->id]) : '' ?></td>
              
                 <td>  
-                <img src="<?= h('/files/amenities/' .$amenity->amenity_logo) ?>" style="width:80px; "> 
+                <img src="<?= h('/files/' .$amenity->amenity_logo) ?>" style="width:80px; "> 
             </td>
                 <td><?= h($amenity->created) ?></td>
                 <td><?= h($amenity->modified) ?></td>
